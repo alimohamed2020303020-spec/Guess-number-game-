@@ -18,7 +18,7 @@ You and the computer each pick a secret number between 1 and 100, then take turn
 
 - Input validation: only numbers from 1 to 100 are accepted.
 - Honesty check: the computer knows your number, so if you answer wrongly it says `Play fair and honest` and asks again.
-- Smart computer: it uses your answers to narrow its range, so it gets closer with every guess.
+- Narrowing range: the computer uses your answers to shrink its range, so it never repeats a guess.
 - Flexible answers: `big`, `bigger`, `greater`, `great` or `small`, `smaller`, `less` are all accepted.
 - Play again without restarting the program.
 
